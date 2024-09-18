@@ -2,7 +2,7 @@
 
 pkgname=python-sphinx-lint
 _name=${pkgname#python-}
-pkgver=0.9.1
+pkgver=1.0.0
 pkgrel=1
 pkgdesc='Check for stylistic and formal issues in .rst and .py files included in the documentation.'
 arch=('any')
@@ -13,7 +13,7 @@ depends=('python' 'python-regex'
          'python-polib')
 makedepends=('python-build' 'python-hatch-vcs' 'python-hatchling' 'python-installer')
 source=("https://files.pythonhosted.org/packages/source/${_name::1}/${_name}/${_name//-/_}-${pkgver}.tar.gz")
-sha256sums=('185cee19ff1129549c45e15a3b25404daeb47c54d15112dda589cedad82957aa')
+sha256sums=('6eafdb44172ce526f405bf36c713eb246f1340ec2d667e7298e2487ed76decd2')
 
 build() {
   cd "${_name//-/_}-${pkgver}"
