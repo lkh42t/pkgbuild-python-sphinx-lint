@@ -1,0 +1,4 @@
+[python-sphinx-lint]
+source = "git"
+git = "https://github.com/sphinx-contrib/sphinx-lint.git"
+prefix = "v"
